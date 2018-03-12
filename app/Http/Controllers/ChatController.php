@@ -14,6 +14,6 @@ use Illuminate\Http\Request;
 class ChatController extends Controller {
     public function line(Request $req)
     {
-        return response(json_decode(json_encode($req->all(), true)), 200);
+        dd(response(json_decode(json_encode($req->all(), true)), 200));
     }
 }
