@@ -14,6 +14,6 @@ use App\Models\Product;
 class ChatController extends Controller {
     public function line(Request $req)
     {
-        return $req;
+        return $req->all();
     }
 }
