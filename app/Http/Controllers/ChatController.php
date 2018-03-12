@@ -14,6 +14,6 @@ use App\Models\Product;
 class ChatController extends Controller {
     public function line(Request $req)
     {
-        return json_decode($req->all(), true);
+        return json_decode(json_encode($req->all(), true));
     }
 }
