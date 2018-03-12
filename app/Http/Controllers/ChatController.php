@@ -14,6 +14,6 @@ use App\Models\Product;
 class ChatController extends Controller {
     public function line()
     {
-        return Product::get();
+        dd('Saya Adalah hahaha hohoho');
     }
 }
