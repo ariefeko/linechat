@@ -12,8 +12,8 @@ use App\Models\Product;
 // use CastleCrypt;
 
 class ChatController extends Controller {
-    public function line()
+    public function line(Request $req)
     {
-        dd('Saya Adalah hahaha hohoho');
+        return $req;
     }
 }
